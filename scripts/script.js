@@ -8,13 +8,7 @@ function APICall() {
     
     //JSON or body of API call
     let _JSON = document.getElementById('input_Request').value;
-    /*let _JSON = JSON.stringify({
-        id: 1,
-        title: 'foo',
-        body: '....',
-        userId: 1
-    });*/
-    
+        
     //Header for API call
     let _Headers = {
         'Content-type': 'application/json; charset=UTF-8',
