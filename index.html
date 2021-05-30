@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <div class="columns">
+        <div>
+            <h2>
+                API Type
+            </h2>
+            <p><select id="select_API_Type">
+                    <option value="get">GET</option>
+                </select></p>
+        </div>
+        <div>
+            <h2>
+                API Path
+            </h2>
+            <p><input id="input_API_Path" type="text" /></p>
+        </div>
+        <div>
+            <h2>
+                Run
+            </h2>
+            <p><input id="button_Run" type="button" value="Run" onclick="APICall()" /></p>
+        </div>
+    </div>
+    </div>
+    
+    <div>
+        
+        <h2>
+            API Path
+        </h2>
+        <p><textarea id="input_Response" type="text" class="inputMulti"></textarea></p>
+    </div>
+    
+</body>
+<script type="text/javascript" src="scripts/script.js"></script>
+
+</html>
