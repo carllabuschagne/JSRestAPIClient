@@ -6,29 +6,50 @@ input[type=button] {
     border-radius: 3px;
     background-color: lightgray;
     cursor: pointer;
+
 }
 
 input[type=button]:hover {
-     
-    background-color: gray; 
+
+    background-color: gray;
+    color: white;
+
 }
 
-.inputMulti {
+select {
+
+    width: 120px;
+    height: 50px;
+    border: 1pt gray solid;
+    border-radius: 3px;
+    background-color: lightgray;
+    cursor: pointer;
+
+}
+
+input[type=text] {
+
+    width: 400px;
+    height: 50px;
+    border: 1pt gray solid;
+    border-radius: 3px;
+    background-color: lightgray;
+
+}
+
+textarea {
 
     height: 400px;
     width: 98%;
 
-
 }
-
 
 .columns {
 
-    margin: 5rem auto;
+    margin: 10px auto;
     width: min(90%, 75rem);
     display: grid;
     /*grid-template-columns: 33% 33% 33%;*/
     grid-auto-flow: column;
-
 
 }
